@@ -8,3 +8,6 @@ Our application enables to display information about the following firms:
 * Meta
 * Tesla
 * Amazone
+## Technologies
+Our application is based on python and more specifically on :
+### `Streamlit`: Streamlit is an open-source app framework for Machine Learning and Data Science teams. Create beautiful web apps in minutes.
