@@ -18,8 +18,11 @@ preferably python 3.9
 * streamlit==1.11.0
 * yfinance==0.2.3
 ## Try it yourself
-you can clone this repo on you local machine using:
+You can clone this repo on you local machine using:
 ```cmd
-npx run docs:generate -- --template=winter --description="Sparkling and frozen" \
---elements="snow,frost,ice" --snowflakes=20
+git clone https://github.com/ahmedbellaaj10/Tech-companies-stock-price.git
+```
+Then install the needed requirements using:
+```cmd
+pip install -r requirements.txt
 ```
