@@ -32,18 +32,17 @@ streamlit run myapp.py
 ```
 A new window will pop-up in your browser displaying the following components:
 ### Form
-![image](assets/from.png)
-<br>
 As shown above, you can choose thanks to this form the company you want to study, the start and the end date, and the frequency of the displayed data.
+![image](images/from.png)
+<br>
 ### Company infos
-![image](assets/infos.png)
-<br>
 As you submit, a detailed presentation of the company will be displayed.
+![image](images/infos.png)
+<br>
 ### Graphs
-![image](assets/courbe.png)
-<br>
 Depending on the choosen options in the form, two curves will be displayed: one tracking the evolution of the closing stock price and the other showing the stock volume of the choosing company.
-<br>
-![image](assets/interactive.png)
+![image](images/courbe.png)
 <br>
 The two curves are interactive: you can play around with them, zoom in, zoom out, use the mouse pointer to read a specific data point and especially save the image in different forms.
+<br>
+![image](images/interactive.png)
