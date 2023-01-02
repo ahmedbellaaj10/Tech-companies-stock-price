@@ -26,3 +26,10 @@ Then install the needed requirements using:
 ```cmd
 pip install -r requirements.txt
 ```
+To run the server you can type the following command:
+```cmd
+streamlit run myapp.py
+```
+A new window will pop-up in your browser displaying the following components:
+### Form
+![image](assets\from.png)
