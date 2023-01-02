@@ -10,7 +10,7 @@ Our application enables to display information about the following firms:
 * Amazone
 ## Technologies
 Our application is based on python and more specifically on :
-* [`streamlit`]([https://link-url-here.org](https://streamlit.io/)): Is an open-source app framework for Machine Learning and Data Science teams. Create beautiful web apps in minutes.
+* [`streamlit`](https://streamlit.io/): Is an open-source app framework for Machine Learning and Data Science teams. Create beautiful web apps in minutes.
 * [`yfinance`](https://pypi.org/project/yfinance/): Is a popular open source library to access the financial data available on [Yahoo Finance](https://finance.yahoo.com/). Yahoo Finance offers an excellent range of market data on stocks, bonds, currencies and cryptocurrencies. It also offers market news, reports and analysis and additionally options and fundamentals data- setting it apart from some of it’s competitors.
 ### Python version: 
 preferably python 3.9
