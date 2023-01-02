@@ -12,12 +12,28 @@ def display(option, period, start, end):
         'Tesla':'TSLA',
         'Amazone': 'AMZN'
     }
+    freq = {
+        '1 min': '1m',
+        '2 mins': '2m',
+        '5 mins': '5m',
+        '15 mins': '15m',
+        '30 mins': '30m',
+        '1h': '1h',
+        '90 mins': '90m',
+        '1 day': '1d',
+        '5 days': '5d',
+        '1 week': '1wk',
+        '1 mo': '1mo',
+        '3 mo': '3mo'
+
+    }
     tickerSymbol = companies[option]
     tickerData = yf.Ticker(tickerSymbol)
     st.write("""### """+option)
+    st.write("""#### Company presentation:""")
     st.write(tickerData.info['longBusinessSummary'])
 
-    tickerDf = tickerData.history(period=period, start=start, end=end)
+    tickerDf = tickerData.history(period=freq[period], start=start, end=end)
     st.write("""
     Shown is the stock **closing price** of
     """+option+""" from """,start,""" to """,end)
@@ -35,11 +51,11 @@ st.write("""
 form = st.form("my_form")
 # form.slider("Inside the form")
 option = form.selectbox(
-             'Which Company do you want to obseve stock related information?',
+             'Select the company you want to display stock data',
              ('Google', 'Apple', 'Microsoft', 'Meta', 'Tesla', 'Amazone'))
 period = form.select_slider(
     'Select a frequency of data to display',
-    options=['1m','2m','5m','15m','30m','60m','90m','1h','1d','5d','1wk','1mo','3mo'])
+    options=['1 min','2 mins','5 mins','15 mins','30 mins','1h','90 mins','1 day','5 days','1 week','1 mo','3 mo'])
 col1, col2 = form.columns(2)
 start = col1.date_input(
     """Select the start date (format is yyyy-MM-dd)""",
