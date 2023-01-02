@@ -10,4 +10,4 @@ Our application enables to display information about the following firms:
 * Amazone
 ## Technologies
 Our application is based on python and more specifically on :
-### `Streamlit`: Streamlit is an open-source app framework for Machine Learning and Data Science teams. Create beautiful web apps in minutes.
+[`Streamlit`]([https://link-url-here.org](https://streamlit.io/)): Is an open-source app framework for Machine Learning and Data Science teams. Create beautiful web apps in minutes.
