@@ -37,7 +37,9 @@ As shown above, you can choose thanks to this form the company you want to study
 ![image](images/from.png)
 
 ### Company infos
+
 As you submit, a detailed presentation of the company will be displayed.
+
 ![image](images/infos.png)
 
 ### Graphs
