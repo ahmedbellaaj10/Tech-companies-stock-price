@@ -1,2 +1,2 @@
-yfinance
-streamlit
+streamlit==1.11.0
+yfinance==0.2.3
