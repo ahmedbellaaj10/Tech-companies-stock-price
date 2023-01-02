@@ -32,3 +32,4 @@ streamlit run myapp.py
 ```
 A new window will pop-up in your browser displaying the following components:
 ### Form
+[!image](assets/form.png)
