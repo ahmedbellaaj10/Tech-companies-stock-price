@@ -53,4 +53,5 @@ The two curves are interactive: you can play around with them, zoom in, zoom out
 
 ### Contributions and contact
 I hope this simple project will help stock enthusiasts extract some data and use it in a practical way.
-If you have any ideas to improve this work, you can contact me via mail on ```ahmed-bellaaj@outlook.com``` or via [linkedIn](https://www.linkedin.com/in/ahmed-bellaaj/)
+If you have any ideas to improve this work, you can contact me via mail on ```ahmed-bellaaj@outlook.com``` or via [linkedIn](https://www.linkedin.com/in/ahmed-bellaaj/).
+Any feedback will be appreciated.
