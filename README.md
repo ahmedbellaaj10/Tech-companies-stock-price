@@ -17,6 +17,8 @@ Preferably python 3.9
 ## Required packages:
 * streamlit==1.11.0
 * yfinance==0.2.3
+## Deployed version
+You can visit the deployed version via [this link](https://ahmedbellaaj10-tech-companies-stock-price-myapp-xdp8y0.streamlit.app/)
 ## Try it yourself
 You can clone this repo on you local machine using:
 ```cmd
