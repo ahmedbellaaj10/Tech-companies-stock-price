@@ -45,4 +45,5 @@ As you submit, a detailed presentation of the company will be displayed.
 Depending on the choosen options in the form, two curves will be displayed: one tracking the evolution of the closing stock price and the other showing the stock volume of the choosing company.
 <br>
 ![image](assets/interactive.png)
+<br>
 The two curves are interactive: you can play around with them, zoom in, zoom out, use the mouse pointer to read a specific data point and especially save the image in different forms.
