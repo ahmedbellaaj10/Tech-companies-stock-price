@@ -16,7 +16,7 @@ Our application is based on python and more specifically on :
 Preferably python 3.9
 ## Required packages:
 * streamlit==1.11.0
-* yfinance==0.2.3
+* yfinance==0.2.4
 ## Deployed version
 You can visit the deployed version via [this link](https://ahmedbellaaj10-tech-companies-stock-price-myapp-ov72sg.streamlit.app/)
 ## Try it yourself
