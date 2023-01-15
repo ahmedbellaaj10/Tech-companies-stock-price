@@ -1,9 +1,22 @@
 import datetime
 import yfinance as yf
 import streamlit as st
-import pandas as pd
 
 def display(option, period, start, end):
+    """
+        Displays stock data for the selected company, frequency of data, 
+        and time period.
+        
+        Parameters:
+        option (str): The name of the company.
+        period (str): The frequency of data to display.
+        start (datetime): The start date of the time period.
+        end (datetime): The end date of the time period.
+        
+        Returns:
+        None
+    """
+
     companies = {
         'Google':'GOOGL',
         'Apple':'AAPL',
@@ -49,7 +62,6 @@ st.write("""
 """)
 
 form = st.form("my_form")
-# form.slider("Inside the form")
 option = form.selectbox(
              'Select the company you want to display stock data',
              ('Google', 'Apple', 'Microsoft', 'Meta', 'Tesla', 'Amazone'))
